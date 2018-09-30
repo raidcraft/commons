@@ -1,0 +1,13 @@
+de\raidcraft\commons\tables\TRcPlayer.class
+de\raidcraft\commons\tables\TCommand.class
+de\raidcraft\commons\tables\TPlugin.class
+de\raidcraft\commons\RCCommonsPlugin.class
+de\raidcraft\commons\tables\TPlayerLog.class
+de\raidcraft\commons\tables\TActionApi.class
+de\raidcraft\commons\tracking\BlockTracking.class
+de\raidcraft\commons\RCCommonsPlugin$1.class
+de\raidcraft\commons\tables\TPlayerLogStatistic.class
+de\raidcraft\commons\util\BukkitPlayerResolver.class
+de\raidcraft\commons\RCCommonsPlugin$LocalConfiguration.class
+de\raidcraft\commons\tables\TListener.class
+de\raidcraft\commons\tables\PlayerPlacedBlock.class

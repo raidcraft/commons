@@ -1,0 +1,7 @@
+name: RCCommons
+main: de.raidcraft.commons.RCCommonsPlugin
+version: ${project.version}#${build.number}
+author: Silthus
+website: www.raid-craft.de
+depend: [RaidCraft-API]
+database: true
