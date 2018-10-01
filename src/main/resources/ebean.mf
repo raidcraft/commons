@@ -1,0 +1,3 @@
+entity-packages: de.raidcraft.commons
+transactional-packages: de.raidcraft.commons
+querybean-packages: de.raidcraft.commons

@@ -7,28 +7,18 @@ import de.raidcraft.RaidCraftPlugin;
 import de.raidcraft.api.BasePlugin;
 import de.raidcraft.api.action.ActionAPI;
 import de.raidcraft.api.action.flow.FlowType;
-import de.raidcraft.api.action.requirement.tables.TPersistantRequirement;
-import de.raidcraft.api.action.requirement.tables.TPersistantRequirementMapping;
 import de.raidcraft.api.config.Comment;
 import de.raidcraft.api.config.ConfigurationBase;
-import de.raidcraft.api.config.MultiComment;
 import de.raidcraft.api.config.Setting;
 import de.raidcraft.api.config.builder.ConfigGenerator;
-import de.raidcraft.api.inventory.TPersistentInventory;
-import de.raidcraft.api.inventory.TPersistentInventorySlot;
-import de.raidcraft.api.inventory.sync.TPlayerInventory;
 import de.raidcraft.api.player.PlayerResolver;
 import de.raidcraft.api.player.PlayerStatisticProvider;
-import de.raidcraft.api.storage.TObjectStorage;
 import de.raidcraft.commons.tables.*;
 import de.raidcraft.commons.tracking.BlockTracking;
 import de.raidcraft.commons.util.BukkitPlayerResolver;
 import de.raidcraft.util.BlockTracker;
-import de.raidcraft.util.BlockUtil;
 import de.raidcraft.util.TimeUtil;
 import io.ebean.EbeanServer;
-import io.ebean.SqlUpdate;
-import lombok.Data;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.Statistic;
@@ -36,7 +26,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
-import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.*;
 
 import java.lang.reflect.Method;
@@ -81,11 +70,6 @@ public class RCCommonsPlugin extends BasePlugin implements Listener {
 
         List<Class<?>> classes = new ArrayList<>();
         classes.add(PlayerPlacedBlock.class);
-        classes.add(TObjectStorage.class);
-        classes.add(TPersistentInventory.class);
-        classes.add(TPersistentInventorySlot.class);
-        classes.add(TPersistantRequirement.class);
-        classes.add(TPersistantRequirementMapping.class);
         classes.add(TCommand.class);
         classes.add(TActionApi.class);
         classes.add(TRcPlayer.class);
@@ -93,7 +77,6 @@ public class RCCommonsPlugin extends BasePlugin implements Listener {
         classes.add(TPlugin.class);
         classes.add(TPlayerLog.class);
         classes.add(TPlayerLogStatistic.class);
-        classes.add(TPlayerInventory.class);
         return classes;
     }
 
