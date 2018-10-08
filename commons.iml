@@ -12,9 +12,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="raidcraft-api" />
+    <orderEntry type="library" name="Maven: de.faldoria:raidcraft-api:1.12-0.6-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: de.slikey:EffectLib:6.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: fr.zcraft:zlib:0.99-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: xyz.upperlevel.spigot.book:spigot-book-api:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.plugins:maven-shade-plugin:maven-plugin:3.2.0" level="project" />
