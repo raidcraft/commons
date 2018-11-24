@@ -5,3 +5,4 @@ author: Silthus
 website: www.raid-craft.de
 depend: [RaidCraft-API]
 database: true
+api-version: 1.13
